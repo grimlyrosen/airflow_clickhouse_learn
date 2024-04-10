@@ -92,7 +92,7 @@ x-airflow-common:
 
 services:
   clickhouse:
-    image: yandex/clickhouse-server
+    image: clickhouse/clickhouse-server
     container_name: "clickhouse"
     ports:
       - "8123:8123"
